@@ -22,6 +22,19 @@
         }
         var subTot = subNumbers(20, 8);
         console.log(" El valor de la resta es", subTot);
+
+        // function 3
+        var num1 = parseInt(prompt("Introduce el primer numero"));
+        var num2 = parseInt(prompt("Introduce el segundo numero"))
+
+        function sumaResta(a, b) {
+            let sum = sumNumbers(a, b);
+            let res = subNumbers(a, b);
+
+            alert("El resultado de la suma es " + sum + " y el resultado de la resta es " + res);
+        }
+
+        sumaResta(num1, num2);
     </script>
 
 
